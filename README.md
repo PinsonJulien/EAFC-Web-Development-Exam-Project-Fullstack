@@ -48,7 +48,7 @@ In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
 
 ### Angular
 
-In `cd EAFC-Web-Development-Exam-Project-Fronted-Archive`
+In `cd EAFC-Web-Development-Exam-Project-Frontend-Archive`
 - If it's not done already, install the Angular CLI : `npm install -g @angular/cli`
 - run `npm install`
 - In `src/environments/enronment.ts`, make sure the `baseUrl` matches `127.0.0.1:8000/`.
