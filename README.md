@@ -5,6 +5,9 @@
 This repository will be archived as of **08/02/2022 (D/M/Y), 9PM (UTC+1 Brussels)** for school access.
 You can find the forked repository [here](https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Fullstack)
 
+[Frontend](https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Frontend)
+
+[Backend](https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Backend)
 
 ## Context
 
@@ -31,6 +34,7 @@ This application is using **Angular 15** and **Laravel 9**, scaffolded as a **Re
 ### Database configuration
 
 Make sure your mysql database:
+
 - Is using `InnoDB` as the engine.
 - Has `default-row-format` set to `dynamic`.
 
@@ -39,6 +43,7 @@ Make sure your mysql database:
 ### Laravel
 
 In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
+
 - Run `composer install`
 - Copy the `.env.example` file to `.env` and replace environment variables that do not fit your database configuration.
 - Make the sure the .env has `FILESYSTEM_DRIVER=public` this will ensure the files are properly saved.
@@ -50,6 +55,7 @@ In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
 ### Angular
 
 In `cd EAFC-Web-Development-Exam-Project-Frontend-Archive`
+
 - If it's not done already, install the Angular CLI : `npm install -g @angular/cli`
 - run `npm install`
 - In `src/environments/enronment.ts`, make sure the `baseUrl` matches `127.0.0.1:8000/`.
@@ -59,9 +65,11 @@ In `cd EAFC-Web-Development-Exam-Project-Frontend-Archive`
 ### Laravel 
 
 In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
+
 Run `php artisan db:seed --class=DemoSeeder` to populate the database.
 
 Each SiteRole has an initial User, you can log yourself using these credentials (email ; password)
+
 - Guest: **guest@site.com** ; **guest**
 - User: **user@site.com** ; **user**
 - Secretary: **secretary@site.com** ; **secretary**
@@ -75,11 +83,13 @@ Make sure you have two consoles open.
 ### Laravel
 
 In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
+
 Run `php artisan serve`
 
 ### Angular
 
 In `cd EAFC-Web-Development-Exam-Project-Frontend-Archive`
+
 Run `ng serve --host 127.0.0.1 --port 5000 --open` and access the application at `http://127.0.0.1:5000/`.
 
 ## Project evolutions
