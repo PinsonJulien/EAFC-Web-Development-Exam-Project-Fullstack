@@ -58,8 +58,7 @@ In `cd EAFC-Web-Development-Exam-Project-Frontend-Archive`
 ### Laravel 
 
 In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
-
-- Run `php artisan db:seed --class=DemoSeeder` to populate the database.
+Run `php artisan db:seed --class=DemoSeeder` to populate the database.
 
 Each SiteRole has an initial User, you can log yourself using these credentials (email ; password)
 - Guest: **guest@site.com** ; **guest**
@@ -78,7 +77,9 @@ In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
 Run `php artisan serve`
 
 ### Angular
+
 In `cd EAFC-Web-Development-Exam-Project-Frontend-Archive`
+Run `ng serve --host 127.0.0.1 --port 5000 --open` and access the application at `http://127.0.0.1:5000/`.
 
 ## Project evolutions
 
