@@ -14,6 +14,8 @@ You can find the forked repository [here](https://github.com/PinsonJulien/EAFC-W
 This repository is related to my Web Development Exam from my bachelor degree in Business Computing, 2nd year.
 You can consult the *scope statement* (in French) in the `scope.pdf` file at root.
 
+You can consult my personal documentation in `examen_projet_web.php` at root.
+
 This application is using **Angular 15** and **Laravel 9**, scaffolded as a **Rest api** using session based authentication. They both have their own repositories which are submodules of this one.
 
 ## Minimal requirements
