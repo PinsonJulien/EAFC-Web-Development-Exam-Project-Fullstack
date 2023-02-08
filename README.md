@@ -29,6 +29,7 @@ This application is using **Angular 15** and **Laravel 9**, scaffolded as a **Re
 - [Angular CLI v15.1.4](https://angular.io/guide/setup-local#install-the-angular-cli)
 
 ### Database configuration
+
 Make sure your mysql database:
 - Is using `InnoDB` as the engine.
 - Has `default-row-format` set to `dynamic`.
