@@ -1,20 +1,13 @@
-# (ARCHIVED) EAFC Web Development Exam Project Fullstack
-
-## Archive note
-
-This repository will be archived as of **08/02/2022 (D/M/Y), 9PM (UTC+1 Brussels)** for school access.
-You can find the forked repository [here](https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Fullstack)
-
-[Frontend](https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Frontend)
-
-[Backend](https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Backend)
+# EAFC Web Development Exam Project Fullstack
 
 ## Context
 
 This repository is related to my Web Development Exam from my bachelor degree in Business Computing, 2nd year.
+The archived git for the exam can be found [here](https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Fullstack-Archive)
+
 You can consult the *scope statement* (in French) in the `scope.pdf` file at root.
 
-You can consult my personal documentation in `examen_projet_web.php` at root.
+You can consult my personal documentation in `examen_projet_web.pdf` at root.
 
 This application is using **Angular 15** and **Laravel 9**, scaffolded as a **Rest api** using session based authentication. They both have their own repositories which are submodules of this one.
 
@@ -44,11 +37,11 @@ Make sure your mysql database:
 
 ### Laravel
 
-In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
+In `cd EAFC-Web-Development-Exam-Project-Backend`
 
 - Run `composer install`
 - Copy the `.env.example` file to `.env` and replace environment variables that do not fit your database configuration.
-- Make the sure the .env has `FILESYSTEM_DRIVER=public` this will ensure the files are properly saved.
+- Make the sure the .env has `FILESYSTEM_DISK=public` this will ensure the files are properly saved.
 - Make sure the `FRONTEND_URL` .env variable matches `http://127.0.0.1:5000/`
 - Run `php artisan key:generate` (this will fill the **APP_KEY** .env variable).
 - Run `php artisan storage:link` to create a **symbolic link** between *public/storage* and *storage/app/public*
@@ -56,17 +49,17 @@ In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
 
 ### Angular
 
-In `cd EAFC-Web-Development-Exam-Project-Frontend-Archive`
+In `cd EAFC-Web-Development-Exam-Project-Frontend`
 
 - If it's not done already, install the Angular CLI : `npm install -g @angular/cli`
 - run `npm install`
-- In `src/environments/enronment.ts`, make sure the `baseUrl` matches `127.0.0.1:8000/`.
+- In `src/environments/enronment.ts`, make sure the `baseUrl` matches `127.0.0.1:8000`.
 
 ## Preparing data for the demo
 
 ### Laravel 
 
-In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
+In `cd EAFC-Web-Development-Exam-Project-Backend`
 
 Run `php artisan db:seed --class=DemoSeeder` to populate the database.
 
@@ -84,13 +77,13 @@ Make sure you have two consoles open.
 
 ### Laravel
 
-In `cd EAFC-Web-Development-Exam-Project-Backend-Archive`
+In `cd EAFC-Web-Development-Exam-Project-Backend`
 
 Run `php artisan serve`
 
 ### Angular
 
-In `cd EAFC-Web-Development-Exam-Project-Frontend-Archive`
+In `cd EAFC-Web-Development-Exam-Project-Frontend`
 
 Run `ng serve --host 127.0.0.1 --port 5000 --open` and access the application at `http://127.0.0.1:5000/`.
 
