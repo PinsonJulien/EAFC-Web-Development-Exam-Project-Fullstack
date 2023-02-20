@@ -4,3 +4,9 @@
 [submodule "EAFC-Web-Development-Exam-Project-Frontend-Archive"]
 	path = EAFC-Web-Development-Exam-Project-Frontend-Archive
 	url = https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Frontend-Archive.git
+[submodule "EAFC-Web-Development-Exam-Project-Backend"]
+	path = EAFC-Web-Development-Exam-Project-Backend
+	url = https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Backend
+[submodule "EAFC-Web-Development-Exam-Project-Frontend"]
+	path = EAFC-Web-Development-Exam-Project-Frontend
+	url = https://github.com/PinsonJulien/EAFC-Web-Development-Exam-Project-Frontend
